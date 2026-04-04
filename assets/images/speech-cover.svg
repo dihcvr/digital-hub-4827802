@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" fill="none">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="400" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="180" fill="url(#bg6)"/>
+  <!-- Microphone -->
+  <rect x="175" y="25" width="50" height="70" rx="25" fill="#818cf8" opacity="0.45"/>
+  <path d="M155 75 C155 105 175 125 200 125 C225 125 245 105 245 75" stroke="#6366f1" stroke-width="4" fill="none" opacity="0.35" stroke-linecap="round"/>
+  <line x1="200" y1="125" x2="200" y2="148" stroke="#6366f1" stroke-width="4" opacity="0.35" stroke-linecap="round"/>
+  <line x1="180" y1="148" x2="220" y2="148" stroke="#6366f1" stroke-width="4" opacity="0.35" stroke-linecap="round"/>
+  <!-- Sound waves left -->
+  <path d="M120 55 C110 70 110 90 120 105" stroke="#a5b4fc" stroke-width="2.5" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <path d="M105 45 C90 68 90 92 105 115" stroke="#a5b4fc" stroke-width="2" fill="none" opacity="0.2" stroke-linecap="round"/>
+  <path d="M90 38 C70 65 70 95 90 122" stroke="#c7d2fe" stroke-width="1.5" fill="none" opacity="0.15" stroke-linecap="round"/>
+  <!-- Sound waves right -->
+  <path d="M280 55 C290 70 290 90 280 105" stroke="#a5b4fc" stroke-width="2.5" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <path d="M295 45 C310 68 310 92 295 115" stroke="#a5b4fc" stroke-width="2" fill="none" opacity="0.2" stroke-linecap="round"/>
+  <path d="M310 38 C330 65 330 95 310 122" stroke="#c7d2fe" stroke-width="1.5" fill="none" opacity="0.15" stroke-linecap="round"/>
+  <!-- Text output -->
+  <rect x="60" y="155" width="50" height="10" rx="5" fill="#818cf8" opacity="0.15"/>
+  <rect x="120" y="155" width="70" height="10" rx="5" fill="#6366f1" opacity="0.12"/>
+  <rect x="200" y="155" width="45" height="10" rx="5" fill="#818cf8" opacity="0.1"/>
+  <rect x="255" y="155" width="60" height="10" rx="5" fill="#6366f1" opacity="0.08"/>
+</svg>

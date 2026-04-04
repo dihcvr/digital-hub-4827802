@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="400" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="180" fill="url(#bg2)"/>
+  <!-- Image frames -->
+  <rect x="40" y="25" width="120" height="90" rx="10" fill="#0891b2" opacity="0.25"/>
+  <rect x="45" y="30" width="110" height="80" rx="7" fill="#06b6d4" opacity="0.35"/>
+  <circle cx="70" cy="55" r="10" fill="#fbbf24" opacity="0.6"/>
+  <path d="M45 100 L75 70 L105 90 L125 65 L155 100 Z" fill="#22d3ee" opacity="0.5"/>
+  <!-- Second frame -->
+  <rect x="180" y="40" width="100" height="75" rx="8" fill="#0891b2" opacity="0.2"/>
+  <rect x="185" y="45" width="90" height="65" rx="5" fill="#06b6d4" opacity="0.3"/>
+  <circle cx="205" cy="62" r="7" fill="#fbbf24" opacity="0.5"/>
+  <path d="M185 102 L210 80 L235 95 L275 70 L275 102 Z" fill="#22d3ee" opacity="0.4"/>
+  <!-- Sparkles -->
+  <path d="M320 40 L324 50 L334 54 L324 58 L320 68 L316 58 L306 54 L316 50 Z" fill="#06b6d4" opacity="0.3"/>
+  <path d="M350 90 L352 96 L358 98 L352 100 L350 106 L348 100 L342 98 L348 96 Z" fill="#22d3ee" opacity="0.25"/>
+  <path d="M310 110 L312 116 L318 118 L312 120 L310 126 L308 120 L302 118 L308 116 Z" fill="#0891b2" opacity="0.2"/>
+  <!-- Brush stroke -->
+  <path d="M300 140 Q330 130 350 145 Q370 155 380 140" stroke="#06b6d4" stroke-width="3" fill="none" opacity="0.25" stroke-linecap="round"/>
+</svg>
