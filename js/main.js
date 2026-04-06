@@ -16,7 +16,7 @@ function renderAITools() {
                 <div class="tool-card__tags">
                     ${tool.tags.map(t => `<span class="tag">${t}</span>`).join('')}
                 </div>
-                <a href="${tool.link}" target="_blank" rel="noopener noreferrer" class="btn ${tool.featured ? 'btn--primary' : 'btn--ghost'} btn--sm">Try Now</a>
+                ${tool.link && tool.link !== '#' ? `<a href="${tool.link}" target="_blank" rel="noopener noreferrer" class="btn ${tool.featured ? 'btn--primary' : 'btn--ghost'} btn--sm">Try Now</a>` : ''}
             </div>
         </div>
     `).join('');
@@ -89,6 +89,23 @@ function renderFreeTools() {
             <i class="${tool.icon}"></i>
             <h4>${tool.name}</h4>
         </a>
+    `).join('');
+}
+
+function renderPremiumTools() {
+    const grid = document.getElementById('premiumToolsGrid');
+    if (!grid || !DB.premiumTools) return;
+    grid.innerHTML = DB.premiumTools.map(tool => `
+        <div class="premium-tool-card">
+            ${tool.badge ? `<div class="premium-tool-card__badge"><i class="fas fa-crown"></i> ${tool.badge}</div>` : ''}
+            <div class="premium-tool-card__icon"><i class="${tool.icon}"></i></div>
+            <h3>${tool.name}</h3>
+            <p>${tool.description}</p>
+            <div class="tool-card__tags">
+                ${tool.tags.map(t => `<span class="tag tag--premium">${t}</span>`).join('')}
+            </div>
+            ${tool.link && tool.link !== '#' ? `<a href="${tool.link}" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm">Get Access</a>` : ''}
+        </div>
     `).join('');
 }
 
@@ -165,6 +182,7 @@ function renderProxy() {
 renderAITools();
 renderFreeTools();
 renderProxy();
+renderPremiumTools();
 renderAPIs();
 renderContact();
 

@@ -922,6 +922,81 @@ img {
     font-weight: 600;
 }
 
+/* ========== PREMIUM TOOLS ========== */
+.premium-tools {
+    padding: 100px 0;
+    background: var(--color-bg-alt);
+}
+
+.premium-tools__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.premium-tool-card {
+    position: relative;
+    padding: 32px 24px;
+    border-radius: var(--radius-md, 12px);
+    border: 1px solid var(--color-border);
+    background: var(--color-bg-card);
+    transition: var(--transition);
+    text-align: center;
+}
+
+.premium-tool-card:hover {
+    border-color: #f59e0b;
+    background: var(--color-bg-card-hover);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(245, 158, 11, 0.15);
+}
+
+.premium-tool-card__badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.premium-tool-card__icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(217, 119, 6, 0.08));
+    font-size: 1.4rem;
+    color: #f59e0b;
+}
+
+.premium-tool-card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.premium-tool-card p {
+    font-size: 0.85rem;
+    color: var(--color-text-muted, #94a3b8);
+    line-height: 1.6;
+    margin-bottom: 14px;
+}
+
+.tag--premium {
+    background: rgba(245, 158, 11, 0.1) !important;
+    color: #f59e0b !important;
+    border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
 /* ========== APIS ========== */
 .apis {
     padding: 100px 0;
@@ -1411,6 +1486,10 @@ img {
         grid-template-columns: 1fr;
     }
 
+    .premium-tools__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .footer__inner {
         grid-template-columns: 1fr 1fr;
     }
@@ -1460,6 +1539,10 @@ img {
 
     .free-tools__grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .premium-tools__grid {
+        grid-template-columns: 1fr;
     }
 
     .pricing-card--featured {

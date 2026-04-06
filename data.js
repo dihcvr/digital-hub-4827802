@@ -20,7 +20,7 @@ var DB = {
             tags: ["GPT-4", "Free"],
             featured: true,
             badge: "Popular",
-            link: "https://chat.openai.com/"
+            link: "https://www.notion.so/AI-Chat-Assistant-ef2fb7542ffa431c9fc2060005b9494a?source=copy_link"
         },
         {
             id: "image",
@@ -30,7 +30,7 @@ var DB = {
             image: "assets/images/image-cover.svg",
             tags: ["DALL-E", "SD"],
             featured: false,
-            link: "https://www.bing.com/images/create"
+            link: "https://www.notion.so/AI-Image-Generator-4ce2ca010f5d4c6cbeaa1d48fb6355bb?source=copy_link"
         },
         {
             id: "code",
@@ -40,7 +40,7 @@ var DB = {
             image: "assets/images/code-cover.svg",
             tags: ["Multi-Lang", "Free"],
             featured: false,
-            link: "https://github.com/features/copilot"
+            link: "https://scarlet-spark-844.notion.site/AI-Code-Generator-3a7f809daa22495bbe9cc7b1c90154a7"
         },
         {
             id: "writer",
@@ -50,7 +50,7 @@ var DB = {
             image: "assets/images/writer-cover.svg",
             tags: ["SEO", "Marketing"],
             featured: false,
-            link: "https://www.copy.ai/"
+            link: "https://scarlet-spark-844.notion.site/AI-Content-Writer-36ab6fa6a9f64f20bc57ff54d8740729"
         },
         {
             id: "translate",
@@ -60,7 +60,7 @@ var DB = {
             image: "assets/images/translate-cover.svg",
             tags: ["100+ Languages"],
             featured: false,
-            link: "https://www.deepl.com/translator"
+            link: "https://scarlet-spark-844.notion.site/AI-Translator-fa7cad1a3ce945009237d8d80d0411ac"
         },
         {
             id: "speech",
@@ -70,23 +70,23 @@ var DB = {
             image: "assets/images/speech-cover.svg",
             tags: ["Whisper", "Free"],
             featured: false,
-            link: "https://huggingface.co/spaces/openai/whisper"
+            link: "https://scarlet-spark-844.notion.site/Speech-to-Text-6d3f89b038d84820a5246e3dd934d21b?source"
         }
     ],
 
     freeTools: [
-        { name: "JSON Formatter", icon: "fas fa-exchange-alt", link: "https://jsonformatter.org/" },
-        { name: "Hash Generator", icon: "fas fa-lock", link: "https://emn178.github.io/online-tools/sha256.html" },
-        { name: "Code Minifier", icon: "fas fa-compress-arrows-alt", link: "https://www.toptal.com/developers/javascript-minifier" },
-        { name: "Color Converter", icon: "fas fa-palette", link: "https://colordesigner.io/convert/hextorgb" },
-        { name: "Regex Tester", icon: "fas fa-file-code", link: "https://regex101.com/" },
-        { name: "UUID Generator", icon: "fas fa-key", link: "https://www.uuidgenerator.net/" },
-        { name: "JWT Decoder", icon: "fas fa-shield-alt", link: "https://jwt.io/" },
-        { name: "SQL Formatter", icon: "fas fa-database", link: "https://sqlformat.org/" },
-        { name: "Timestamp Converter", icon: "fas fa-clock", link: "https://www.epochconverter.com/" },
-        { name: "Base64 Encode/Decode", icon: "fas fa-font", link: "https://www.base64decode.org/" },
-        { name: "Password Generator", icon: "fas fa-random", link: "https://passwordsgenerator.net/" },
-        { name: "Markdown Preview", icon: "fas fa-file-alt", link: "https://markdownlivepreview.com/" }
+        { name: "JSON Formatter", icon: "fas fa-exchange-alt", link: "https://www.notion.so/JSON-Formatter-6ad11f8bdb14459f983f9492b7a50cf4?pvs=24" },
+        { name: "Hash Generator", icon: "fas fa-lock", link: "https://www.notion.so/Hash-Generator-d28bb7d28dd34e97b463d8dfca8364a0?pvs=24" },
+        { name: "Code Minifier", icon: "fas fa-compress-arrows-alt", link: "https://scarlet-spark-844.notion.site/Code-Minifier-a267ea91ce8543d88bc11dedc17250ed" },
+        { name: "Color Converter", icon: "fas fa-palette", link: "https://scarlet-spark-844.notion.site/Color-Converter-89e5f879b07b40b19815f076dff1f3ab" },
+        { name: "Regex Tester", icon: "fas fa-file-code", link: "https://scarlet-spark-844.notion.site/Regex-Tester-a0992fc151cd43399856621c71f11566" },
+        { name: "UUID Generator", icon: "fas fa-key", link: "https://scarlet-spark-844.notion.site/UUID-Generator-7eb8d7a7801c4125aec36d90c8b38459" },
+        { name: "JWT Decoder", icon: "fas fa-shield-alt", link: "https://scarlet-spark-844.notion.site/JWT-Decoder-cacd3f37b08e4deba52cd1d20606e080" },
+        { name: "SQL Formatter", icon: "fas fa-database", link: "https://scarlet-spark-844.notion.site/SQL-Formatter-fef19ff4d9fa4e49adfaae279a4dd741" },
+        { name: "Timestamp Converter", icon: "fas fa-clock", link: "https://scarlet-spark-844.notion.site/Timestamp-Converter-2e05333ebe35400380f0db7e8e5ddd10" },
+        { name: "Base64 Encode/Decode", icon: "fas fa-font", link: "https://scarlet-spark-844.notion.site/Base64-Encode-Decode-80ba648aedd946c4907978f949148b67" },
+        { name: "Password Generator", icon: "fas fa-random", link: "https://scarlet-spark-844.notion.site/Password-Generator-d7640907bda54cb88f71ae616705fa47" },
+        { name: "Markdown Preview", icon: "fas fa-file-alt", link: "https://scarlet-spark-844.notion.site/Markdown-Preview-890ddedad0e64b60be4040f2ace993fd" }
     ],
 
     proxyHighlight: {
@@ -114,6 +114,73 @@ var DB = {
         primaryBtn: { label: "Get Started — $1/GB", icon: "fas fa-rocket", link: "https://dataimpulse.com/?aff=YOUR_AFFILIATE_ID" },
         secondaryBtn: { label: "View Plans", icon: "fas fa-tags", link: "https://dataimpulse.com/pricing/?aff=YOUR_AFFILIATE_ID" }
     },
+
+    premiumTools: [
+        {
+            name: "n8n Workflow Collection",
+            icon: "fas fa-project-diagram",
+            description: "A curated collection of powerful n8n automation workflows to supercharge your productivity.",
+            tags: ["AI", "Tools"],
+            badge: "Premium",
+            link: "https://www.notion.so/n8n-Workflow-Collection-331d9ea4dbbe803787ece05a97927886?v=59f16d0d4acb4000bbe53d2c939d93f1&source=copy_link"
+        },
+        {
+            name: "Cheapest Proxy $1/GB",
+            icon: "fas fa-shield-alt",
+            description: "Premium proxy service at unbeatable prices — just $1 per GB. Reliable, fast & affordable.",
+            tags: ["Web", "Traffic Tools"],
+            badge: "Premium",
+            link: "https://www.notion.so/Cheapest-Proxy-1-1GB-337d9ea4dbbe802da7b8f4ad1f60d625?source=copy_link"
+        },
+        {
+            name: "Perplexity AI",
+            icon: "fas fa-search",
+            description: "AI-powered search engine that delivers accurate, real-time answers with cited sources.",
+            tags: ["AI", "Search"],
+            badge: "Premium",
+            link: "https://www.notion.so/Perplexity-AI-33ad9ea4dbbe808b8da7daf52020f5a2?source=copy_link"
+        },
+        {
+            name: "Midjourney",
+            icon: "fas fa-paint-brush",
+            description: "Generate stunning, high-quality images from text prompts with the leading AI art generator.",
+            tags: ["AI", "Image"],
+            badge: "Premium",
+            link: "https://www.notion.so/Midjourney-33ad9ea4dbbe805aa7dffedd75a50cbe?source=copy_link"
+        },
+        {
+            name: "Runway ML",
+            icon: "fas fa-film",
+            description: "AI-powered video generation and editing tools for creators — text-to-video, inpainting & more.",
+            tags: ["AI", "Video"],
+            badge: "Premium",
+            link: "https://www.notion.so/Runway-ML-33ad9ea4dbbe8016ac34c1dbe6eafc76?source=copy_link"
+        },
+        {
+            name: "OpenAI API",
+            icon: "fas fa-brain",
+            description: "Access GPT-4, DALL-E, Whisper and more through OpenAI's powerful developer API platform.",
+            tags: ["AI", "API"],
+            badge: "Premium",
+            link: "https://www.notion.so/OpenAI-API-33ad9ea4dbbe80ab9490ea025bf5dbd6?source=copy_link"
+        },
+        {
+            name: "RapidAPI",
+            icon: "fas fa-plug",
+            description: "Discover and connect to thousands of APIs — the world's largest API marketplace for developers.",
+            tags: ["API", "Dev"],
+            badge: "Premium",
+            link: "https://www.notion.so/RapidAPI-33ad9ea4dbbe80cc8576fca50d374336?source=copy_link"
+        },
+        {
+            name: "Vercel",
+            icon: "fas fa-rocket",
+            description: "Deploy frontend apps instantly with Vercel — the platform for modern web development.",
+            tags: ["Hosting", "Dev"],
+            badge: "Premium",
+            link: "https://www.notion.so/Vercel-33ad9ea4dbbe8060bfe0ccce183a9e2f?source=copy_link"
+        }
+    ],
 
     apis: [
         {
